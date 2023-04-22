@@ -1,5 +1,5 @@
 const puppeteer = require("puppeteer");
-const votesToAdd = 500;
+const votesToAdd = 3;
 for (let index = 0; index < votesToAdd; index++) {
   (async () => {
     const email = require("email-generator");
