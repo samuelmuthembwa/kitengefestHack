@@ -1,0 +1,18 @@
+{
+  "name": "6movies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "email-generator": "^1.0.1",
+    "node-fetch": "^2.6.9",
+    "puppeteer": "^19.10.0"
+  }
+}
