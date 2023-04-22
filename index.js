@@ -36,4 +36,5 @@ for (let index = 0; index < votesToAdd; index++) {
 
     browser.close();
   })();
+  console.log("Total votes cast : ": index);
 }
