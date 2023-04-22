@@ -7,7 +7,7 @@ for (let index = 0; index < votesToAdd; index++) {
     var fakeNumber = `07${Math.floor(Math.random() * 100000000)}`;
     const browser = await puppeteer.launch({
       args: ["--incognito"],
-      headless: false,
+      headless: true,
     });
     const page = await browser.newPage();
     await page.goto(
